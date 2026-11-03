@@ -1,0 +1,62 @@
+---
+title: "About me"
+output: 
+  html_document:
+    theme: "journal"
+    toc: true
+    toc_float: true
+---
+<br>
+
+### Education
+_____________________________________________________________
+
+__Columbia University, Mailman School of Public Health__ [Expected May 2028]{style="float: right;"}
+
+_MS in Biostatistics, Public Health Data Science Track_
+
+<br>
+     
+__University of California, Berkeley__ [Aug 2020 - Dec 2023]{style="float:right;"}
+
+_B.A. in Integrative Biology, Integrative Human Biology Track · Andy Grove Scholarship, 2021_
+
+<br>
+
+### Research and Work Experience
+_____________________________________________________________
+
+__Icahn School of Medicine at Mount Sinai, New York, NY__
+
+_Clinical Research Coordinator II, Peter Laboratory_ [Jan 2026 – Aug 2026]{style="float:right;"}
+
+_Clinical Research Coordinator I, Peter Laboratory_ [June 2024 – Jan 2026]{style="float:right;"}
+
+* Advanced from point of contact for 3 clinical cohorts to independently managing 4 clinical cohorts (n > 500 participants) and 2 cross-sectional surveys, and advising on the IRB review of one retrospective cohort
+
+* Presented poster describing exploratory analysis of fecal microplastics’ chemical types and sizes between individuals with and without IBD, using Wilcoxon rank-sum tests, PERMANOVA, and PCoA in R; communicated results to a multidisciplinary audience at department retreat
+
+* Co-developed research publication on IBD, gestational weight gain, and maternal and neonatal outcomes; led patient data curation and cleaning with REDCap and R, ensuring data quality, and drafted and edited major manuscript sections [CGH 2026↗]
+
+* Collaborated across three birth cohorts on a study of PFAS and pediatric intestinal inflammation, cleaning and harmonizing clinical cohort data in R and contributing to exploratory research and manuscript writing [CGH 2026↗]
+
+• Oversaw data manipulation and survey processing of plastic usage questionnaires investigating microplastics in IBD, resulting in DDW 2026 abstract [abstract↗]
+• Collaborated on statistical analysis plans, survey instruments, and IRB study designs for two cross-sectional surveys of IBD patient
+and provider attitudes on environmental factors in disease progression
+• Co-authored abstract on microplastics as a biomarker of intestinal inflammation in a pilot of the PLANET Study [DDW 2025↗]
+Checkerspot Inc., Alameda, CA May 2023 – Dec 2023
+Lab Operations & Analytical Chemistry Intern
+• Collaborated on chemical shelf-life and sensory experiments on food-grade microalgae-derived oil, generating data on taste and
+chemical degradation
+• Executed cryopreservation project for maintenance and quality assurance of a working microalgae strain bank
+UCSF Cardiovascular Research Institute, San Francisco, CA Undergraduate Research Apprentice
+• Performed image analysis of cardiomyocytes, focusing on nucleation, ploidy, and cell health
+• Developed molecular biology techniques including PCR and cell staining for immunofluorescence microscopy
+Aug 2021 – Aug 2022
+Museum of Vertebrate Zoology, Berkeley, CA Curatorial Assistant
+• Advanced specimen archiving through invertebrate specimen dissection, preservation, and data collection
+Biodesign @ Berkeley, University of California, Berkeley Outreach Coordinator
+• Competed in 2023 Biodesign Challenge and Summit with project exploring bacterial cellulose hydrogel textiles [project↗]
+• Led membership recruitment and bio-inspired design workshops for the student-led club
+Feb 2023 – May 2023
+Sept 2023 – May 2024

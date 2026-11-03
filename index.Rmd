@@ -1,0 +1,33 @@
+---
+title: |
+ ![](images/hilma_af_klimt.avif){width=100%}
+ 
+ Isabella Nguyen
+output: 
+  html_document:
+    toc: false
+    toc_float: false
+    theme: "journal"
+    css: styles.css
+---
+<br>
+
+Hi there! I am a current MS in Biostatistics student with a Public Health Data Science track at the Mailman School of Public Health at Columbia University. Previously, I graduated with my BA in Integrative Biology from the University of California, Berkeley. 
+
+I am interested in exposomics/ environmental exposures research, with previous experience serving as a clinical research coordinator for 4 clinical cohort studies examining the interplay of host genetics, microbiome changes, and the exposome as it relates to the pathogenesis and disease outcomes of IBD. I have studied and worked in biological research across disciplines and scales.
+
+
+
+Links to other websites:
+
+[Google](https://www.google.com)
+
+Local images
+
+![](images/image_name.jpg)
+To create a new page, create a new rmd file
+
+Link to page within site 
+[About me](about.html)
+
+
