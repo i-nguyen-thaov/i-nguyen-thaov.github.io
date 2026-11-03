@@ -1,8 +1,10 @@
 ---
 title: |
- ![](images/hilma_af_klimt.avif){width=100%}
- 
- Isabella Nguyen
+  <img src="images/hilma_af_klimt.avif" style="width:100%;" alt="Hilma af Klint">
+  <div style="font-family: Georgia, serif; font-size: 14px; font-style: italic; font-weight: 300; color: #EB6864; margin-top: 12px; line-height: 1.6;">
+    Hilma af Klint's botanical illustrations of Marsh Marigold and Lesser Celandine. As seen at the MOMA in NYC!
+  </div>
+  Isabella Nguyen
 output: 
   html_document:
     toc: false
@@ -12,11 +14,11 @@ output:
 ---
 <br>
 
-Hi there! I am a current MS in Biostatistics student with a Public Health Data Science track at the Mailman School of Public Health at Columbia University. Previously, I graduated with my BA in Integrative Biology from the University of California, Berkeley. 
+Hi there! I am a current MS in Biostatistics student with a Public Health Data Science track at the Mailman School of Public Health at Columbia University. Previously, I graduated with my BA in Integrative Biology from the University of California, Berkeley. Through this education, I have studied and worked in biological research across disciplines and scales.
 
-I am interested in exposomics/ environmental exposures research, with previous experience serving as a clinical research coordinator for 4 clinical cohort studies examining the interplay of host genetics, microbiome changes, and the exposome as it relates to the pathogenesis and disease outcomes of IBD. I have studied and worked in biological research across disciplines and scales.
+I am interested in exposomics/ environmental exposures research, with previous experience serving as a clinical research coordinator for 4 clinical cohort studies examining the interplay of host genetics, microbiome changes, and the exposome as it relates to the pathogenesis and disease outcomes of IBD. I also have formal work and research experience in biotechnology and wet lab biological research.
 
-
+More information about me, my recent works, and my contact information can be found in the navigation bar above! (＾▽＾)
 
 Links to other websites:
 

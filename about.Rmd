@@ -9,7 +9,7 @@ output:
 <br>
 
 ### Education
-_____________________________________________________________
+<hr style="border: none; border-top: 1px solid #A34855; width: 100%;">
 
 __Columbia University, Mailman School of Public Health__ [Expected May 2028]{style="float: right;"}
 
@@ -24,7 +24,7 @@ _B.A. in Integrative Biology, Integrative Human Biology Track · Andy Grove Scho
 <br>
 
 ### Research and Work Experience
-_____________________________________________________________
+<hr style="border: none; border-top: 1px solid #A34855; width: 100%;">
 
 __Icahn School of Medicine at Mount Sinai, New York, NY__
 
@@ -40,23 +40,55 @@ _Clinical Research Coordinator I, Peter Laboratory_ [June 2024 – Jan 2026]{sty
 
 * Collaborated across three birth cohorts on a study of PFAS and pediatric intestinal inflammation, cleaning and harmonizing clinical cohort data in R and contributing to exploratory research and manuscript writing [CGH 2026↗]
 
-• Oversaw data manipulation and survey processing of plastic usage questionnaires investigating microplastics in IBD, resulting in DDW 2026 abstract [abstract↗]
-• Collaborated on statistical analysis plans, survey instruments, and IRB study designs for two cross-sectional surveys of IBD patient
-and provider attitudes on environmental factors in disease progression
-• Co-authored abstract on microplastics as a biomarker of intestinal inflammation in a pilot of the PLANET Study [DDW 2025↗]
-Checkerspot Inc., Alameda, CA May 2023 – Dec 2023
-Lab Operations & Analytical Chemistry Intern
-• Collaborated on chemical shelf-life and sensory experiments on food-grade microalgae-derived oil, generating data on taste and
-chemical degradation
-• Executed cryopreservation project for maintenance and quality assurance of a working microalgae strain bank
-UCSF Cardiovascular Research Institute, San Francisco, CA Undergraduate Research Apprentice
-• Performed image analysis of cardiomyocytes, focusing on nucleation, ploidy, and cell health
-• Developed molecular biology techniques including PCR and cell staining for immunofluorescence microscopy
-Aug 2021 – Aug 2022
-Museum of Vertebrate Zoology, Berkeley, CA Curatorial Assistant
-• Advanced specimen archiving through invertebrate specimen dissection, preservation, and data collection
-Biodesign @ Berkeley, University of California, Berkeley Outreach Coordinator
-• Competed in 2023 Biodesign Challenge and Summit with project exploring bacterial cellulose hydrogel textiles [project↗]
-• Led membership recruitment and bio-inspired design workshops for the student-led club
-Feb 2023 – May 2023
-Sept 2023 – May 2024
+* Oversaw data manipulation and survey processing of plastic usage questionnaires investigating microplastics in IBD, resulting in DDW 2026 abstract [abstract↗]
+
+* Collaborated on statistical analysis plans, survey instruments, and IRB study designs for two cross-sectional surveys of IBD patient and provider attitudes on environmental factors in disease progression
+
+* Co-authored abstract on microplastics as a biomarker of intestinal inflammation in a pilot of the PLANET Study [DDW 2025↗]
+
+__Checkerspot Inc., Alameda, CA__ 
+
+_Lab Operations & Analytical Chemistry Intern_ [May 2023 – Dec 2023]{style="float:right;"}
+
+* Collaborated on chemical shelf-life and sensory experiments on food-grade microalgae-derived oil, generating data on taste and chemical degradation that informed marketing campaigns for algae oil consumption
+
+* Executed cryopreservation project for maintenance and quality assurance of a working microalgae strain bank
+
+__UCSF Cardiovascular Research Institute, San Francisco, CA__ [Aug 2021 - Aug 2022]{style="float:right;"}
+
+_Undergraduate Research Apprentice_
+
+* Performed image analysis of cardiomyocytes, focusing on nucleation, ploidy, and cell health
+
+* Developed molecular biology techniques including PCR and cell staining for immunofluorescence microscopy
+
+__Museum of Vertebrate Zoology, Berkeley, CA__ 
+
+_Curatorial Assistant_ [Feb 2023 – May 2023]{style="float:right;"} 
+
+* Advanced specimen archiving through invertebrate specimen dissection, preservation, and data collection
+
+__Biodesign @ Berkeley, University of California, Berkeley__ 
+
+_Outreach Coordinator_ [Sept 2023 - May 2024]{style="float:right;"}
+
+* Competed in 2023 Biodesign Challenge and Summit with project exploring bacterial cellulose hydrogel textiles [project↗]
+
+* Led membership recruitment and bio-inspired design workshops for the student-led club
+
+<br>
+ 
+### Skills
+<hr style="border: none; border-top: 1px solid #A34855; width: 100%;">
+
+__Statistical Programming__: R, Python
+
+__Data Management__: REDCap, Microsoft Excel, ImageJ, FreezerPro, SQL
+
+__Research Design__: Cohort study design, statistical analysis planning, protocol documentation, IRB submissions,
+grant applications, literature review
+
+__Certifications__: StanfordOnline Statistical Learning in R (Verified); CITI GCP for Clinical Trials; Data Security
+and HIPAA
+
+__Laboratory__: BSL-2+ specimen QC, PCR, RNA/DNA isolation, microalgae culturing, image analysis
