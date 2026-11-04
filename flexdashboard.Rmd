@@ -1,0 +1,15 @@
+---
+title: "flexdashboard"
+output: 
+  html_document:
+    theme: "journal"
+---
+<hr style="border: none; border-top: 1px solid #A34855; width: 100%;">
+
+### Loading Libraries
+```{r, message = FALSE}
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
