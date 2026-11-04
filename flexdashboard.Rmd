@@ -6,10 +6,66 @@ output:
 ---
 <hr style="border: none; border-top: 1px solid #A34855; width: 100%;">
 
-### Loading Libraries
+__I. Loading Libraries__
 ```{r, message = FALSE}
 library(tidyverse)
 library(p8105.datasets)
 
 library(plotly)
 ```
+
+__II. Using the NYC Restaurant Inspection results from the `p8105.datasets` package.__ 
+```{r}
+data("rest_inspec")
+
+rest_clean =  rest_inspec |>
+  janitor::clean_names() |>
+  mutate(
+    camis = as.character(camis),
+    across(where(is.character), str_trim),
+    across(where(is.character), ~ replace(.x, .x %in% c("NKA", "NA", ""), NA)),
+    building = na_if(building, "0"),
+    boro = na_if(boro, "0"),
+    latitude = na_if(latitude, 0), 
+    longitude = na_if(longitude, 0),
+    inspection_date = replace(inspection_date, lubridate::year(inspection_date) == 1900, NA),
+    record_date = replace(record_date, lubridate::year(record_date) == 1900, NA), 
+    grade_date = replace(grade_date, lubridate::year(grade_date) == 1900, NA)
+  )
+```
+
+__III. Plotly Boxplot__
+
+Distribution of inspection scores by borough
+
+```{r}
+rest_clean |>
+  select(camis, dba, boro, zipcode, cuisine_description,
+         inspection_date, inspection_type, score, grade) |>
+  distinct() |>
+  filter(!is.na(score)) |>
+  filter(!is.na(boro)) |>
+  mutate(
+    boro = fct_reorder(boro, score)
+  ) |>
+  plot_ly(y = ~score, color = ~boro, type = "box", colors = "viridis")
+```
+
+__IV. Plotly Scatterplot__
+
+Longitude vs Latitude, with color grading by average restaurant scores at initial cycle inspection
+```{r}
+rest_clean |>
+  filter(inspection_type == "Cycle Inspection / Initial Inspection") |>
+  drop_na(score, latitude, longitude) |>
+  group_by(camis, inspection_date, inspection_type, latitude, longitude, score, grade) |>
+  summarise(average_score = mean(score))
+  
+  
+```
+
+
+__V. Plotly Barchart__
+
+Average Score by Cuisine
+
