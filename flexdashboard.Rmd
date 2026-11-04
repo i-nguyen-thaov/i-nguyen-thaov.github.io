@@ -1,21 +1,19 @@
 ---
 title: "flexdashboard"
 output: 
-  html_document:
-    theme: "journal"
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
-<hr style="border: none; border-top: 1px solid #A34855; width: 100%;">
 
-__I. Loading Libraries__
-```{r, message = FALSE}
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
 library(tidyverse)
 library(p8105.datasets)
-
+library(flexdashboard)
 library(plotly)
-```
 
-__II. Using the NYC Restaurant Inspection results from the `p8105.datasets` package.__ 
-```{r}
 data("rest_inspec")
 
 rest_clean =  rest_inspec |>
@@ -34,22 +32,9 @@ rest_clean =  rest_inspec |>
   )
 ```
 
-__III. Distribution of inspection scores by borough (higher score = more violations)__
-
-```{r}
-rest_clean |>
-  select(camis, dba, boro, zipcode, cuisine_description,
-         inspection_date, inspection_type, score, grade) |>
-  distinct() |>
-  filter(!is.na(score)) |>
-  filter(!is.na(boro)) |>
-  mutate(
-    boro = fct_reorder(boro, score)
-  ) |>
-  plot_ly(y = ~score, color = ~boro, type = "box", colors = "viridis")
-```
-
-__IV. Longitude vs latitude, with color indicating average scores (higher score = more violations) at initial cycle inspection__
+Column {data-width=600}
+-----------------------------------------------------------------------
+### A. Longitude vs latitude, with color indicating average scores (higher score = more violations) at initial cycle inspection
 
 ```{r, message = FALSE}
 rest_clean |>
@@ -66,13 +51,37 @@ rest_clean |>
   plot_ly(
     x = ~longitude, y = ~latitude, type = "scatter", mode = "markers", text = ~text_label,
     color = ~avg_score, marker = list(size = 3), alpha = 0.5, colors = "viridis"
+  ) |>
+  layout(
+    xaxis = list(title = "Longitude"),
+    yaxis = list(title = "Latitude", scaleanchor = "x")
   )
   
   
 ```
 
+Column {data-width = 400}
+-----------------------------------------------------------------------
 
-__V. Top 20 Violation Codes in 2019__
+### B. Distribution of inspection scores by borough (higher score = more violations)
+
+```{r}
+rest_clean |>
+  select(camis, dba, boro, zipcode, cuisine_description,
+         inspection_date, inspection_type, score, grade) |>
+  distinct() |>
+  filter(!is.na(score)) |>
+  filter(!is.na(boro)) |>
+  mutate(
+    boro = fct_reorder(boro, score, median)
+  ) |>
+  plot_ly(y = ~score, color = ~boro, type = "box", colors = "viridis")
+```
+
+
+
+
+### C. Top 20 Violation Codes in 2019
 ```{r}
 rest_clean |>
   filter(lubridate::year(inspection_date) == 2019) |>
