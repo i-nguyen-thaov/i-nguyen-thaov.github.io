@@ -4,6 +4,9 @@ output:
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
+    source: embed
+    navbar:
+      - { title: "Home", href: "https://i-nguyen-thaov.github.io/", align: left }
 ---
 
 ```{r, include = FALSE}
