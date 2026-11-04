@@ -3,9 +3,13 @@ title: "About me"
 output: 
   html_document:
     theme: "journal"
-    toc: true
-    toc_float: true
 ---
+<style>
+body {
+  background-color: #FFFDFA !important;
+}
+</style>
+
 <br>
 
 ### Education
@@ -36,15 +40,15 @@ _Clinical Research Coordinator I, Peter Laboratory_ [June 2024 – Jan 2026]{sty
 
 * Presented poster describing exploratory analysis of fecal microplastics’ chemical types and sizes between individuals with and without IBD, using Wilcoxon rank-sum tests, PERMANOVA, and PCoA in R; communicated results to a multidisciplinary audience at department retreat
 
-* Co-developed research publication on IBD, gestational weight gain, and maternal and neonatal outcomes; led patient data curation and cleaning with REDCap and R, ensuring data quality, and drafted and edited major manuscript sections [CGH 2026↗]
+* Co-developed research publication on IBD, gestational weight gain, and maternal and neonatal outcomes; led patient data curation and cleaning with REDCap and R, ensuring data quality, and drafted and edited major manuscript sections [CGH 2026↗](https://doi.org/10.1016/j.cgh.2026.04.013)
 
-* Collaborated across three birth cohorts on a study of PFAS and pediatric intestinal inflammation, cleaning and harmonizing clinical cohort data in R and contributing to exploratory research and manuscript writing [CGH 2026↗]
+* Collaborated across three birth cohorts on a study of PFAS and pediatric intestinal inflammation, cleaning and harmonizing clinical cohort data in R and contributing to exploratory research and manuscript writing [CGH 2026↗](https://doi.org/10.1016/j.cgh.2026.07.001)
 
-* Oversaw data manipulation and survey processing of plastic usage questionnaires investigating microplastics in IBD, resulting in DDW 2026 abstract [abstract↗]
+* Oversaw data manipulation and survey processing of plastic usage questionnaires investigating microplastics in IBD, resulting in DDW 2026 abstract [abstract↗](https://doi.org/10.1016/s0016-5085(26)02788-5)
 
 * Collaborated on statistical analysis plans, survey instruments, and IRB study designs for two cross-sectional surveys of IBD patient and provider attitudes on environmental factors in disease progression
 
-* Co-authored abstract on microplastics as a biomarker of intestinal inflammation in a pilot of the PLANET Study [DDW 2025↗]
+* Co-authored abstracts in DDW and ECCO 2025 on microplastics as a biomarker of intestinal inflammation in a pilot of the PLANET Study [abstract↗](https://doi.org/10.1016/s0016-5085(25)02210-3)
 
 __Checkerspot Inc., Alameda, CA__ 
 

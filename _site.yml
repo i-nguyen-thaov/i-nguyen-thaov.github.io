@@ -6,12 +6,14 @@ navbar:
   right:
     - text: "About"
       href: about.html
-    - text: "Publications"
-    - href: Pubs.html
+    - text: "Selected Works"
+      href: Pubs.html
     - icon: fa-envelope fa-lg
-      href: mailto:<in2303@cumc.columbia.edu>
+      href: mailto:in2303@cumc.columbia.edu
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/isabella-nguyen-53a9251a7/
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: http://github.com/i-nguyen-thaov/
 output:
   html_document:
-    theme: "journal"
+    theme: journal
