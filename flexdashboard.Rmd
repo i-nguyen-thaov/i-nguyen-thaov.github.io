@@ -34,9 +34,7 @@ rest_clean =  rest_inspec |>
   )
 ```
 
-__III. Plotly Boxplot__
-
-Distribution of inspection scores by borough
+__III. Distribution of inspection scores by borough (higher score = more violations)__
 
 ```{r}
 rest_clean |>
@@ -51,21 +49,41 @@ rest_clean |>
   plot_ly(y = ~score, color = ~boro, type = "box", colors = "viridis")
 ```
 
-__IV. Plotly Scatterplot__
+__IV. Longitude vs latitude, with color indicating average scores (higher score = more violations) at initial cycle inspection__
 
-Longitude vs Latitude, with color grading by average restaurant scores at initial cycle inspection
-```{r}
+```{r, message = FALSE}
 rest_clean |>
   filter(inspection_type == "Cycle Inspection / Initial Inspection") |>
   drop_na(score, latitude, longitude) |>
-  group_by(camis, inspection_date, inspection_type, latitude, longitude, score, grade) |>
-  summarise(average_score = mean(score))
+  distinct(camis, dba, inspection_date, latitude, longitude, score) |>
+  group_by(camis, dba, latitude, longitude) |>
+  summarise(
+    avg_score = mean(score),
+    n_inspections = n(),
+    .groups = "drop"
+  ) |>
+  mutate(text_label = str_c(dba, "\nAverage Score:", round(avg_score, 2), "\nInspections", n_inspections)) |>
+  plot_ly(
+    x = ~longitude, y = ~latitude, type = "scatter", mode = "markers", text = ~text_label,
+    color = ~avg_score, marker = list(size = 3), alpha = 0.5, colors = "viridis"
+  )
   
   
 ```
 
 
-__V. Plotly Barchart__
+__V. Top 20 Violation Codes in 2019__
+```{r}
+rest_clean |>
+  filter(lubridate::year(inspection_date) == 2019) |>
+  drop_na(violation_code) |>
+  count(violation_code, violation_description) |>
+  slice_max(n, n = 20) |>
+  mutate(
+    violation_code = fct_reorder(violation_code, n),
+    text_label = str_c(str_trunc(violation_description, 100), "\nCount:", n)
+  ) |>
+  plot_ly(x = ~violation_code, y = ~n, color = ~violation_code, text = ~text_label, type = "bar", colors = "viridis")
+```
 
-Average Score by Cuisine
 
