@@ -15,15 +15,19 @@ body {
 
 ### Publications
 
+<hr style="border: none; border-top: 1px solid #A34855; width: 100%;">
+
 Midya V, Maroli AS, Picker M, Dolios G, Valvi D, Nguyen I, et al. Per- and polyfluoroalkyl substances in early life are associated with childhood intestinal inflammation: analyses of three birth cohorts. Clin Gastroenterol Hepatol. Published online 2026. doi:10.1016/j.cgh.2026.07.001
 
 Kim T, Nguyen I, Thomas N, et al. Intestinal inflammation impacts gestational weight gain in women with inflammatory bowel disease and growth in offspring. Clin Gastroenterol Hepatol. Published online 2026. doi:10.1016/j.cgh.2026.04.013
 
 Kim T, Nicoletti P, Estevinho MM, Tarassishin L, Picker M, Debebe A, Nguyen I, et al. Association between maternal IBD-related antibodies and early life gut inflammatory status and microbiota composition: insights from cord blood. J Inflamm Res. 2025;18:16009–16022. doi:10.2147/JIR.S557581
 
-<hr style="border: none; border-top: 1px solid #A34855; width: 100%;">
+<br>
 
 ### Abstracts and Poster Presentations
+
+<hr style="border: none; border-top: 1px solid #A34855; width: 100%;">
 
 Zhao M, Kim T, Nguyen I, et al. Su1581: Plastic use patterns and fecal microplastics in Crohn’s disease compared to
 healthy controls. Gastrointest Endosc. 2026;103(5 suppl):S1083–S1084. doi:10.1016/S0016-5107(26)02719-7
