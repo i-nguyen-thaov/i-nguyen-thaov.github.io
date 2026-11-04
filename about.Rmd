@@ -15,15 +15,15 @@ body {
 ### Education
 <hr style="border: none; border-top: 1px solid #A34855; width: 100%;">
 
-__Columbia University, Mailman School of Public Health__ [Expected May 2028]{style="float: right;"}
+__Columbia University, Mailman School of Public Health__ 
 
-_MS in Biostatistics, Public Health Data Science Track_
+_MS in Biostatistics, Public Health Data Science Track_ [Expected May 2028]{style="float: right;"}
 
 <br>
      
-__University of California, Berkeley__ [Aug 2020 - Dec 2023]{style="float:right;"}
+__University of California, Berkeley__ 
 
-_B.A. in Integrative Biology, Integrative Human Biology Track · Andy Grove Scholarship, 2021_
+_B.A. in Integrative Biology, Integrative Human Biology Track · Andy Grove Scholarship, 2021_ [Aug 2020 - Dec 2023]{style="float:right;"}
 
 <br>
 
@@ -58,9 +58,9 @@ _Lab Operations & Analytical Chemistry Intern_ [May 2023 – Dec 2023]{style="fl
 
 * Executed cryopreservation project for maintenance and quality assurance of a working microalgae strain bank
 
-__UCSF Cardiovascular Research Institute, San Francisco, CA__ [Aug 2021 - Aug 2022]{style="float:right;"}
+__UCSF Cardiovascular Research Institute, San Francisco, CA__ 
 
-_Undergraduate Research Apprentice_
+_Undergraduate Research Apprentice_ [Aug 2021 - Aug 2022]{style="float:right;"}
 
 * Performed image analysis of cardiomyocytes, focusing on nucleation, ploidy, and cell health
 
